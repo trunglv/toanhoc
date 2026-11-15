@@ -53,3 +53,9 @@ Vài quy tắc cơ bản để tính nhanh:
 - $(e^x)' = e^x$
 
 Bước tiếp theo thường là học quy tắc tích, quy tắc chuỗi, và cách dùng đạo hàm để vẽ phác đồ thị. Nhưng ý tưởng cốt lõi vẫn là bài toán chiếc xe ở trên: nhìn đoạn đường ngắn lại càng ngắn, và xem điều gì xảy ra ở giới hạn.
+
+<div class="note note-try">
+<span class="note-label">Thử sức</span>
+<p>Tính đạo hàm của $f(x) = x^3$ bằng định nghĩa, theo đúng các bước như ví dụ $x^2$ ở trên. Gợi ý: khai triển $(x+h)^3$ rồi chia cho $h$.</p>
+<p>Kiểm tra: kết quả đúng là $3x^2$.</p>
+</div>

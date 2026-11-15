@@ -33,7 +33,7 @@ layout: default
     </div>
     <div class="topic-grid">
       {% for topic in site.data.topics %}
-      <a class="topic-card" href="{{ prefix | append: '/topics/' | append: '#' | append: topic.slug | relative_url }}">
+      <a class="topic-card" style="--c: {{ topic.color }}" href="{{ prefix | append: '/topics/' | append: '#' | append: topic.slug | relative_url }}">
         <span class="topic-symbol" aria-hidden="true">{{ topic.symbol }}</span>
         <h3 class="topic-name">{{ topic.name[lang] }}</h3>
         <p class="topic-desc">{{ topic.desc[lang] }}</p>

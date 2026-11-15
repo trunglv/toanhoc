@@ -7,9 +7,9 @@ vi:
   lang_switch_label: English
   lang_switch_url: /en/
   lang_switch_text: EN
-  hero_eyebrow: Ghi chú toán học
-  hero_title: Toán không khó. Chỉ cần nhìn đúng chỗ.
-  hero_lede: Những bài viết về đại số, giải tích, hình học, xác suất và số học. Mỗi bài đi từ một câu hỏi, dựng hình trực giác trước, rồi mới đến công thức.
+  hero_eyebrow: Dành cho học sinh từ lớp 6
+  hero_title: Toán không khó đâu! Cùng khám phá nhé.
+  hero_lede: Mỗi bài giải thích từng bước bằng hình vẽ, có ví dụ rõ ràng và phần Thử sức để bạn tự làm thử.
   hero_board_caption: Đẳng thức Euler, thường được xem là một trong những công thức đẹp nhất.
   hero_cta_topics: Xem các chủ đề
   hero_cta_blog: Đọc bài mới
@@ -38,9 +38,9 @@ en:
   lang_switch_label: Tiếng Việt
   lang_switch_url: /
   lang_switch_text: VI
-  hero_eyebrow: Mathematics notes
-  hero_title: Math isn't hard. You just need to look at the right spot.
-  hero_lede: Posts on algebra, calculus, geometry, probability and number theory. Each one starts from a question, builds the picture first, and reaches the formula after.
+  hero_eyebrow: For students from grade 6
+  hero_title: Math isn't hard! Let's explore together.
+  hero_lede: Every lesson explains step by step with pictures, clear examples, and a Try It section so you can practice on your own.
   hero_board_caption: Euler's identity, often named one of the most beautiful formulas in mathematics.
   hero_cta_topics: Browse topics
   hero_cta_blog: Read the latest

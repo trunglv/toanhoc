@@ -51,3 +51,9 @@ Trừ $2ab$ ở hai vế, ta được $a^2 + b^2 = c^2$. Xong.
 Ngược lại, nếu $a^2 + b^2 = c^2$ thì tam giác có ba cạnh $a$, $b$, $c$ là tam giác vuông. Vì vậy bộ ba $(3, 4, 5)$ dùng được để dựng góc vuông chính xác khi xây móng nhà: đo $3$ m, $4$ m, $5$ m, và góc giữa hai cạnh ngắn sẽ là góc vuông.
 
 Lịch sử của định lý dài hơn hình vẽ này rất nhiều. Đã có hàng trăm cách chứng minh được ghi lại, từ những chứng minh bằng hình đến cách dùng đồng dạng và đại số. Chọn cách nào tùy vào điều bạn muốn thấy rõ nhất.
+
+<div class="note note-try">
+<span class="note-label">Thử sức</span>
+<p>Một tam giác vuông có cạnh góc vuông là $6$ cm và $8$ cm. Tính cạnh huyền.</p>
+<p>Đáp số: $10$ cm, vì $6^2 + 8^2 = 36 + 64 = 100$.</p>
+</div>

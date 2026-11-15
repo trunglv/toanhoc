@@ -1,6 +1,7 @@
 # Các chủ đề. "slug" phải khớp với mục "categories" trong bài viết.
 - slug: dai-so
   symbol: "x² + y²"
+  color: "#6d4aff"
   name:
     vi: Đại số
     en: Algebra
@@ -10,6 +11,7 @@
 
 - slug: giai-tich
   symbol: "∫ f"
+  color: "#e8590c"
   name:
     vi: Giải tích
     en: Calculus
@@ -19,6 +21,7 @@
 
 - slug: hinh-hoc
   symbol: "△"
+  color: "#0f9d8a"
   name:
     vi: Hình học
     en: Geometry
@@ -28,6 +31,7 @@
 
 - slug: xac-suat
   symbol: "P(A|B)"
+  color: "#d6336c"
   name:
     vi: Xác suất
     en: Probability
@@ -37,6 +41,7 @@
 
 - slug: so-hoc
   symbol: "n ∈ ℤ"
+  color: "#3b6fd8"
   name:
     vi: Số học
     en: Number theory
