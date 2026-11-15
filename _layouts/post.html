@@ -7,6 +7,7 @@ layout: default
 {% if lang == "en" %}{% assign prefix = "/en" %}{% endif %}
 
 <article class="wrapper post">
+  {% if page.banner %}<img class="post-banner" src="{{ page.banner | relative_url }}" alt="" width="1200" height="400" loading="eager">{% endif %}
   <header class="post-header">
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5636e0"/>
+      <stop offset="1" stop-color="#a592ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="40" r="180" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="120" cy="420" r="160" fill="#0f9d8a" fill-opacity="0.25"/>
+  <text x="70" y="150" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffb703" letter-spacing="3">TOÁN HỌC 6</text>
+  <text x="70" y="235" font-family="Helvetica, Arial, sans-serif" font-size="84" font-weight="800" fill="#ffffff">Số nguyên tố</text>
+  <text x="70" y="290" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#f3f1ff">Chỉ có hai ước: 1 và chính nó</text>
+  <g>
+    <rect x="70" y="330" width="22" height="22" rx="11" fill="#ffb703"/>
+    <text x="104" y="348" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Số nguyên tố</text>
+  </g>
+  <g>
+    <text x="664.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">1</text>
+    <circle cx="712.0" cy="94.0" r="19" fill="#ffb703"/><text x="712.0" y="100.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">2</text>
+    <circle cx="760.0" cy="94.0" r="19" fill="#ffb703"/><text x="760.0" y="100.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">3</text>
+    <text x="808.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">4</text>
+    <circle cx="856.0" cy="94.0" r="19" fill="#ffb703"/><text x="856.0" y="100.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">5</text>
+    <text x="904.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">6</text>
+    <circle cx="952.0" cy="94.0" r="19" fill="#ffb703"/><text x="952.0" y="100.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">7</text>
+    <text x="1000.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">8</text>
+    <text x="1048.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">9</text>
+    <text x="1096.0" y="100.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">10</text>
+    <circle cx="664.0" cy="142.0" r="19" fill="#ffb703"/><text x="664.0" y="148.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">11</text>
+    <text x="712.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">12</text>
+    <circle cx="760.0" cy="142.0" r="19" fill="#ffb703"/><text x="760.0" y="148.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">13</text>
+    <text x="808.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">14</text>
+    <text x="856.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">15</text>
+    <text x="904.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">16</text>
+    <circle cx="952.0" cy="142.0" r="19" fill="#ffb703"/><text x="952.0" y="148.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">17</text>
+    <text x="1000.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">18</text>
+    <circle cx="1048.0" cy="142.0" r="19" fill="#ffb703"/><text x="1048.0" y="148.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">19</text>
+    <text x="1096.0" y="148.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">20</text>
+    <text x="664.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">21</text>
+    <text x="712.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">22</text>
+    <circle cx="760.0" cy="190.0" r="19" fill="#ffb703"/><text x="760.0" y="196.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">23</text>
+    <text x="808.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">24</text>
+    <text x="856.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">25</text>
+    <text x="904.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">26</text>
+    <text x="952.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">27</text>
+    <text x="1000.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">28</text>
+    <circle cx="1048.0" cy="190.0" r="19" fill="#ffb703"/><text x="1048.0" y="196.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">29</text>
+    <text x="1096.0" y="196.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">30</text>
+    <circle cx="664.0" cy="238.0" r="19" fill="#ffb703"/><text x="664.0" y="244.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">31</text>
+    <text x="712.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">32</text>
+    <text x="760.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">33</text>
+    <text x="808.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">34</text>
+    <text x="856.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">35</text>
+    <text x="904.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">36</text>
+    <circle cx="952.0" cy="238.0" r="19" fill="#ffb703"/><text x="952.0" y="244.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">37</text>
+    <text x="1000.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">38</text>
+    <text x="1048.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">39</text>
+    <text x="1096.0" y="244.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">40</text>
+    <circle cx="664.0" cy="286.0" r="19" fill="#ffb703"/><text x="664.0" y="292.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">41</text>
+    <text x="712.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">42</text>
+    <circle cx="760.0" cy="286.0" r="19" fill="#ffb703"/><text x="760.0" y="292.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">43</text>
+    <text x="808.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">44</text>
+    <text x="856.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">45</text>
+    <text x="904.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">46</text>
+    <circle cx="952.0" cy="286.0" r="19" fill="#ffb703"/><text x="952.0" y="292.0" text-anchor="middle" font-size="18" font-weight="700" fill="#1e1b3a">47</text>
+    <text x="1000.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">48</text>
+    <text x="1048.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">49</text>
+    <text x="1096.0" y="292.0" text-anchor="middle" font-size="16" fill="#ffffff" fill-opacity="0.45">50</text>
+  </g>
+</svg>

@@ -3,6 +3,7 @@ title: "Số nguyên tố: từ dễ hiểu đến các bài olympic"
 date: 2026-11-15 09:00:00 +0700
 categories: [so-hoc]
 lang: vi
+banner: /assets/images/banner-so-nguyen-to.svg
 ---
 
 Bạn có thể chia hết cho 1 và chính mình. Nhưng số 7 chỉ chia hết cho 1 và 7, còn số 6 thì chia hết cho 1, 2, 3, 6. Sự khác nhau nhỏ đó là ý tưởng của bài này: **số nguyên tố**.

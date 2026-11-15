@@ -584,6 +584,15 @@ svg {
   margin-bottom: 26px;
 }
 
+.post-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 26px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
 .post-meta {
   display: flex;
   flex-wrap: wrap;
