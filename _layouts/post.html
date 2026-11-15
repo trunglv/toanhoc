@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign lang = page.lang | default: "vi" %}
+{% assign t = site.data.i18n[lang] %}
+{% assign prefix = "" %}
+{% if lang == "en" %}{% assign prefix = "/en" %}{% endif %}
+
+<article class="wrapper post">
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
+      {% for category in page.categories %}
+        {% assign topic = nil %}
+        {% for tp in site.data.topics %}{% if tp.slug == category %}{% assign topic = tp %}{% endif %}{% endfor %}
+        {% if topic %}<a class="post-tag" href="{{ prefix | append: '/topics/' | append: '#' | append: topic.slug | relative_url }}">{{ topic.name[lang] }}</a>{% endif %}
+      {% endfor %}
+    </p>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <p class="post-back">
+    <a href="{{ prefix | append: '/blog/' | relative_url }}">{{ t.back_to_blog }}</a>
+  </p>
+</article>

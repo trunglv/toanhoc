@@ -1,0 +1,8 @@
+{% assign lang = page.lang | default: "vi" %}
+{% assign t = site.data.i18n[lang] %}
+<footer class="site-footer">
+  <div class="wrapper site-footer-inner">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ t.brand }} &middot; {{ t.footer_tagline }}</p>
+    <p><a href="{{ '/feed.xml' | relative_url }}">{{ t.rss_label }}</a></p>
+  </div>
+</footer>

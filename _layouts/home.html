@@ -1,0 +1,64 @@
+---
+layout: default
+---
+{% assign lang = page.lang | default: "vi" %}
+{% assign t = site.data.i18n[lang] %}
+{% assign prefix = "" %}
+{% if lang == "en" %}{% assign prefix = "/en" %}{% endif %}
+
+<section class="hero">
+  <div class="wrapper hero-grid">
+    <div class="hero-text">
+      <p class="hero-eyebrow">{{ t.hero_eyebrow }}</p>
+      <h1 class="hero-title">{{ t.hero_title }}</h1>
+      <p class="hero-lede">{{ t.hero_lede }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ prefix | append: '/topics/' | relative_url }}">{{ t.hero_cta_topics }}</a>
+        <a class="btn btn-ghost" href="{{ prefix | append: '/blog/' | relative_url }}">{{ t.hero_cta_blog }}</a>
+      </div>
+    </div>
+
+    <figure class="chalkboard">
+      <div class="chalkboard-math">$$e^{i\pi} + 1 = 0$$</div>
+      <figcaption>{{ t.hero_board_caption }}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="wrapper">
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">{{ t.section_topics }}</h2>
+      <a class="section-link" href="{{ prefix | append: '/topics/' | relative_url }}">{{ t.view_all }}</a>
+    </div>
+    <div class="topic-grid">
+      {% for topic in site.data.topics %}
+      <a class="topic-card" href="{{ prefix | append: '/topics/' | append: '#' | append: topic.slug | relative_url }}">
+        <span class="topic-symbol" aria-hidden="true">{{ topic.symbol }}</span>
+        <h3 class="topic-name">{{ topic.name[lang] }}</h3>
+        <p class="topic-desc">{{ topic.desc[lang] }}</p>
+        {% assign count = site.posts | where: "lang", lang | where_exp: "p", "p.categories contains topic.slug" | size %}
+        <span class="topic-count">{{ count }}{{ t.posts_count_suffix }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">{{ t.section_latest }}</h2>
+      <a class="section-link" href="{{ prefix | append: '/blog/' | relative_url }}">{{ t.view_all }}</a>
+    </div>
+    <ol class="notebook-list">
+      {% assign latest = site.posts | where: "lang", lang %}
+      {% for post in latest limit:6 %}
+      <li class="notebook-item">
+        <a href="{{ post.url | relative_url }}">
+          <time class="notebook-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+          <span class="notebook-title">{{ post.title }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+</div>

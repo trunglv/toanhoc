@@ -1,0 +1,44 @@
+title: Toán học
+description: >-
+  Ghi chú và bài viết về toán: đại số, giải tích, hình học, xác suất và số học.
+  Viết để bạn hiểu vì sao, không chỉ làm thế nào.
+tagline: Hiểu vì sao, không chỉ làm thế nào.
+baseurl: ""
+url: "https://toanhoc.page"
+
+permalink: /:categories/:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: vi
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      lang: vi
+  - scope:
+      path: "en"
+    values:
+      lang: en
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - .bundle

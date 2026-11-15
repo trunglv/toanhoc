@@ -1,0 +1,61 @@
+vi:
+  brand: Toán học
+  nav_topics: Chủ đề
+  nav_blog: Bài viết
+  nav_about: Giới thiệu
+  nav_rss: RSS
+  lang_switch_label: English
+  lang_switch_url: /en/
+  lang_switch_text: EN
+  hero_eyebrow: Ghi chú toán học
+  hero_title: Toán không khó. Chỉ cần nhìn đúng chỗ.
+  hero_lede: Những bài viết về đại số, giải tích, hình học, xác suất và số học. Mỗi bài đi từ một câu hỏi, dựng hình trực giác trước, rồi mới đến công thức.
+  hero_board_caption: Đẳng thức Euler, thường được xem là một trong những công thức đẹp nhất.
+  hero_cta_topics: Xem các chủ đề
+  hero_cta_blog: Đọc bài mới
+  section_topics: Chủ đề
+  section_latest: Bài viết mới
+  view_all: Xem tất cả →
+  posts_count_suffix: " bài"
+  topic_empty: Chưa có bài viết trong chủ đề này.
+  blog_empty: Chưa có bài viết nào. Quay lại sau nhé.
+  blog_title: Bài viết
+  blog_lede: Tất cả ghi chú, theo thời gian.
+  topics_title: Chủ đề
+  topics_lede: Chọn một chủ đề để xem các bài viết liên quan.
+  back_to_blog: "← Về danh sách bài viết"
+  about_title: Giới thiệu
+  footer_tagline: Viết để hiểu, không viết để trình diễn.
+  rss_label: Đăng ký RSS
+  not_found: Trang này không tồn tại. Thử về trang chủ nhé.
+
+en:
+  brand: Math Notes
+  nav_topics: Topics
+  nav_blog: Posts
+  nav_about: About
+  nav_rss: RSS
+  lang_switch_label: Tiếng Việt
+  lang_switch_url: /
+  lang_switch_text: VI
+  hero_eyebrow: Mathematics notes
+  hero_title: Math isn't hard. You just need to look at the right spot.
+  hero_lede: Posts on algebra, calculus, geometry, probability and number theory. Each one starts from a question, builds the picture first, and reaches the formula after.
+  hero_board_caption: Euler's identity, often named one of the most beautiful formulas in mathematics.
+  hero_cta_topics: Browse topics
+  hero_cta_blog: Read the latest
+  section_topics: Topics
+  section_latest: Latest posts
+  view_all: View all →
+  posts_count_suffix: " posts"
+  topic_empty: No posts in this topic yet.
+  blog_empty: No posts yet. Check back soon.
+  blog_title: Posts
+  blog_lede: Every note, in order of time.
+  topics_title: Topics
+  topics_lede: Pick a topic to see related posts.
+  back_to_blog: "← Back to all posts"
+  about_title: About
+  footer_tagline: Written to understand, not to show off.
+  rss_label: Subscribe via RSS
+  not_found: This page doesn't exist. Try the homepage.

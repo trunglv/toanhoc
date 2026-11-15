@@ -1,0 +1,45 @@
+# Các chủ đề. "slug" phải khớp với mục "categories" trong bài viết.
+- slug: dai-so
+  symbol: "x² + y²"
+  name:
+    vi: Đại số
+    en: Algebra
+  desc:
+    vi: Phương trình, cấu trúc, và cách các ký hiệu làm việc cùng nhau.
+    en: Equations, structures, and how symbols work together.
+
+- slug: giai-tich
+  symbol: "∫ f"
+  name:
+    vi: Giải tích
+    en: Calculus
+  desc:
+    vi: Tốc độ thay đổi, tích lũy, và giới hạn, nhìn bằng hình.
+    en: Rates of change, accumulation, and limits, seen through pictures.
+
+- slug: hinh-hoc
+  symbol: "△"
+  name:
+    vi: Hình học
+    en: Geometry
+  desc:
+    vi: Chứng minh bằng hình vẽ, từ định lý quen thuộc đến những điều bất ngờ.
+    en: Proofs by picture, from familiar theorems to surprising results.
+
+- slug: xac-suat
+  symbol: "P(A|B)"
+  name:
+    vi: Xác suất
+    en: Probability
+  desc:
+    vi: Trực giác ngẫu nhiên và những nghịch lý làm ta sai.
+    en: Intuition about chance and the paradoxes that fool us.
+
+- slug: so-hoc
+  symbol: "n ∈ ℤ"
+  name:
+    vi: Số học
+    en: Number theory
+  desc:
+    vi: Số nguyên tố, đồng dư, và các chứng minh ngắn gọn của Euclid.
+    en: Primes, congruences, and Euclid's short proofs.

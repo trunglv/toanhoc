@@ -1,0 +1,22 @@
+{% comment %}Header theo ngôn ngữ. page.lang mặc định là "vi" (xem _config.yml).{% endcomment %}
+{% assign lang = page.lang | default: "vi" %}
+{% assign t = site.data.i18n[lang] %}
+{% assign prefix = "" %}
+{% if lang == "en" %}{% assign prefix = "/en" %}{% endif %}
+<header class="site-header">
+  <div class="wrapper site-header-inner">
+    <a class="site-brand" href="{{ prefix | append: '/' | relative_url }}">
+      <span class="site-brand-mark" aria-hidden="true">∑</span>
+      <span class="site-brand-name">{{ t.brand }}</span>
+    </a>
+
+    <div class="site-header-right">
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ prefix | append: '/topics/' | relative_url }}">{{ t.nav_topics }}</a>
+        <a href="{{ prefix | append: '/blog/' | relative_url }}">{{ t.nav_blog }}</a>
+        <a href="{{ prefix | append: '/about/' | relative_url }}">{{ t.nav_about }}</a>
+      </nav>
+      <a class="site-lang-switch" href="{{ t.lang_switch_url | relative_url }}" title="{{ t.lang_switch_label }}">{{ t.lang_switch_text }}</a>
+    </div>
+  </div>
+</header>
