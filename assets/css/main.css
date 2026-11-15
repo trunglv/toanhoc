@@ -593,6 +593,24 @@ svg {
   box-shadow: var(--shadow);
 }
 
+.post-figure {
+  margin: 24px auto;
+  max-width: 560px;
+  text-align: center;
+}
+
+.post-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.post-figure figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .post-meta {
   display: flex;
   flex-wrap: wrap;

@@ -60,6 +60,11 @@ Ví dụ: $2024 = 2 \cdot 1012 = 2 \cdot 2 \cdot 506 = 2 \cdot 2 \cdot 2 \cdot 2
 
 Cách làm: chia dần cho số nguyên tố nhỏ nhất có thể, cho đến khi không chia được nữa.
 
+<figure class="post-figure">
+  <img src="/assets/images/so-phan-tich-360.svg" alt="Sơ đồ chia dần: 360 chia 2 được 180, 180 chia 2 được 90, 90 chia 2 được 45, 45 chia 3 được 15, 15 chia 3 được 5, 5 chia 5 được 1. Vậy 360 = 2 × 2 × 2 × 3 × 3 × 5.">
+  <figcaption>Sơ đồ chia dần để phân tích 360 ra thừa số nguyên tố.</figcaption>
+</figure>
+
 <div class="note note-try">
 <span class="note-label">Thử sức</span>
 <p>Phân tích $360$ ra thừa số nguyên tố. Đáp số: $360 = 2^3 \cdot 3^2 \cdot 5$.</p>

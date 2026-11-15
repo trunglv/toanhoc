@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 524" width="560" height="524" role="img" aria-label="Phân tích 360 thành thừa số nguyên tố bằng cách chia dần">
+  <rect x="0.5" y="0.5" width="559" height="523" rx="18" fill="#ffffff" stroke="#e0dcf5"/>
+  <text x="28" y="44" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">Phân tích 360 bằng cách chia dần</text>
+  <line x1="236" y1="48" x2="236" y2="390" stroke="#6d4aff" stroke-width="2.5"/>
+  <text x="200" y="86" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">360</text>
+  <circle cx="300" cy="78" r="17" fill="#ffb703"/>
+  <text x="300" y="84" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">2</text>
+  <line x1="246" y1="103.0" x2="246" y2="103.0" stroke="none"/>
+  <text x="200" y="136" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">180</text>
+  <circle cx="300" cy="128" r="17" fill="#ffb703"/>
+  <text x="300" y="134" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">2</text>
+  <line x1="246" y1="153.0" x2="246" y2="153.0" stroke="none"/>
+  <text x="200" y="186" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">90</text>
+  <circle cx="300" cy="178" r="17" fill="#ffb703"/>
+  <text x="300" y="184" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">2</text>
+  <line x1="246" y1="203.0" x2="246" y2="203.0" stroke="none"/>
+  <text x="200" y="236" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">45</text>
+  <circle cx="300" cy="228" r="17" fill="#ffb703"/>
+  <text x="300" y="234" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">3</text>
+  <line x1="246" y1="253.0" x2="246" y2="253.0" stroke="none"/>
+  <text x="200" y="286" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">15</text>
+  <circle cx="300" cy="278" r="17" fill="#ffb703"/>
+  <text x="300" y="284" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">3</text>
+  <line x1="246" y1="303.0" x2="246" y2="303.0" stroke="none"/>
+  <text x="200" y="336" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">5</text>
+  <circle cx="300" cy="328" r="17" fill="#ffb703"/>
+  <text x="300" y="334" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1e1b3a">5</text>
+  <line x1="246" y1="353.0" x2="246" y2="353.0" stroke="none"/>
+  <text x="200" y="386" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1e1b3a">1</text>
+  <rect x="28" y="418" width="504" height="66" rx="14" fill="#ede9fe"/>
+  <text x="280" y="458" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#5636e0">360 = 2³ · 3² · 5</text>
+  <text x="280" y="484" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4b4870">Số ở cột trái là số bị chia; số ở cột phải là thương nguyên tố</text>
+</svg>
